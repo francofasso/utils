@@ -1,40 +1,6 @@
-console.log('%cutils.js working', 'color:  #4CAF50');
-
 class Utils {
   constructor() {
   }
-  // IDEA: Volume della sfera, area cerchio, ...
-  // IDEA: mcm, mcd ...
-  /*
-  // IDEA: getPositionX
-      function getPositionX(event) {
-        return event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
-      }
-
-     IDEA: oncontextmenu
-      window.oncontextmenu = (event) => {
-        event.preventDefault;
-        event.stopPropagation;
-        return false;
-      }
-
-     IDEA: https://getflywheel.com/layout/best-javascript-libraries-frameworks-2020/#libraries
-      
-     IDEA: set --scroll as a css variable
-       window.addEventListener(
-         "scroll",
-         () => {
-           console.log(Math.round(window.pageYOffset / (document.body.offsetHeight - window.innerHeight)* 100) / 100);
-           document.body.style.setProperty(
-             "--scroll",
-             window.pageYOffset / (document.body.offsetHeight - window.innerHeight),
-           );
-         },
-         false
-       );
-  */
-
-
 
   /*
   *
